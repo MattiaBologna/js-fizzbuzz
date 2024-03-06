@@ -47,10 +47,11 @@ for (let i = 0; i < 100; i++) {
         // se il numero non e ne multiplo di 3 ne di 5 => stamparlo 
         listItemElement.innerHTML = number
     }
-
-    
     
     // inserire nel container l'elemento creato 
     numbersListElement.append(listItemElement)
+
 }
+
+
     
