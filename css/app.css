@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+body {
+    background-color: purple;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 50px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    margin: 0 50px;
+}
+
+.numbers > * {
+    border: 1px solid black;
+    text-align: center;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+.blue {
+    background-color: blue;
+}

@@ -34,12 +34,15 @@ for (let i = 0; i < 100; i++) {
 
     if (number % 3 === 0 && number % 5 === 0) {
         listItemElement.innerHTML = 'FizzBuzz'
+        listItemElement.classList.add('red')
     } else if (number % 5 === 0) {
         // per i multipli di 5 stampare "Buzz" 
         listItemElement.innerHTML = 'Buzz'
+        listItemElement.classList.add('yellow')
     } else if (number % 3 === 0) {
             // per i multipli di 3 stampare "Fizz"
         listItemElement.innerHTML = 'Fizz'
+        listItemElement.classList.add('blue')
     } else {
         // se il numero non e ne multiplo di 3 ne di 5 => stamparlo 
         listItemElement.innerHTML = number
